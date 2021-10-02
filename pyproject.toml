@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "PyIPaas_IICS"
+version = "1.0"
+description = "This project allows you to automate job metadata collection and execution for any informatica cloud instance"
+authors = ["Sebastian <sebastian.hansen_vega@outlook.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.3.3"
+requests = "^2.26.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
